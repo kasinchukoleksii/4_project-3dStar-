@@ -1,0 +1,49 @@
+#footer{
+  width: 100%;
+  height: 100%;
+  background-color: #0E131D;
+  align: center;
+  display: flex;
+  .AboutUs{
+    width: 50%;
+    color: #ffffff;
+    padding: 50px 100px 0 200px;
+    h3{
+      font-size: 16px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .ContactUs{
+    width: 50%;
+    padding: 50px 200px 100px 100px;
+    h3{
+      font-size: 16px;
+      color: #ffffff;
+    }
+    form{
+      input[type=text], textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: #7B8BA1;
+      }
+      input[type=submit]{
+        background-color: #009BFF;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        width: 120px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover{
+        background-color: #2CA7F5;
+      }
+    }
+  }
+}
